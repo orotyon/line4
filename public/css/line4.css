@@ -1,0 +1,30 @@
+div.ban {
+    font-size: xx-large;
+}
+input.colbutton {
+    font-size: x-large;width: 40px; 
+    background    : #6666ff;     /* 背景色     */
+    color         : #ffffff;     /* 文字色     */
+}
+input.colbutton:hover {
+    color         : #6666ff;     /* 背景色     */
+    background    : #ffffff;     /* 文字色     */
+}
+
+input.button {
+    display       : inline-block;
+    border-radius : 40%;          /* 角丸       */
+    font-size     : 18pt;        /* 文字サイズ */
+    text-align    : center;      /* 文字位置   */
+    cursor        : pointer;     /* カーソル   */
+    padding       : 12px 13px;   /* 余白       */
+    background    : #6666ff;     /* 背景色     */
+    color         : #ffffff;     /* 文字色     */
+    line-height   : 1em;         /* 1行の高さ  */
+    transition    : .3s;         /* なめらか変化 */
+    border        : 2px solid #6666ff;    /* 枠の指定 */
+  }
+input.button:hover {
+    color         : #6666ff;     /* 背景色     */
+    background    : #ffffff;     /* 文字色     */
+  }
